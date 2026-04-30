@@ -9,6 +9,8 @@ jQuery(document).ready(function($){
     /* Photo Album Swiper */
 
     var albumSwiper = new Swiper('.wdp_photo_album_swiper', {
+        pagination: '.wdp_photo_album_swiper_pagination',
+        paginationClickable: true,
         autoplay: 2500, // Delay between transitions (in ms)
         autoplayDisableOnInteraction: false, // Autoplay will not be disabled after user interactions
         speed: 800, // Duration of transition between slides (in ms) 
@@ -38,10 +40,10 @@ jQuery(document).ready(function($){
     /* Carousel Swiper */
     
     var carouselSwiper = new Swiper('.wdp_carousel_swiper', {
-        //pagination: '.wdp_carousel_swiper_pagination', // CSS selector of the container with pagination
+        pagination: '.wdp_carousel_swiper_pagination', // CSS selector of the container with pagination
         nextButton: '.wdp_carousel_swiper_next', // CSS selector of the element that will work like "next" button after click on it
         prevButton: '.wdp_carousel_swiper_prev', //  CSS selector of the element that will work like "prev" button after click on it
-        //paginationClickable: true, // Clickable pagination for bullets pagination type
+        paginationClickable: true, // Clickable pagination for bullets pagination type
         speed: 800, // Duration of transition between slides (in ms)
         roundLengths: true, // Prevent blurry texts on usual resolution screens
         grabCursor: true, // User will see the "grab" cursor when hover on Swiper

@@ -104,10 +104,35 @@ Version : 1.1
 		font-size: 14px;
 	}
     .wdp_site_title {
-        font-size: 54px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 32px;
+        line-height: 1.1;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .wdp_site_title .groom,
+    .wdp_site_title .bride {
+        display: block;
+        margin: 2px auto;
+        width: 100%;
     }
     .wdp_header_icon {
-        height: 110px;
+        display: block;
+        margin: 10px auto !important;
+        height: 60px;
+        float: none !important;
+        position: relative;
+        left: 0;
+        right: 0;
+    }
+    .wdp_navigation {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #B47CE6 !important; /* Lavender background for sticky menu */
     }
     .wdp_dropdown_menu {
         font-size: 12px;
@@ -128,6 +153,10 @@ Version : 1.1
     }
     .wdp_countdown_int {
         margin-top: 10px;
+    }
+
+    .wdp_preloader_verse {
+        font-size: 18px;
     }
 
     .wdp_social_icon_item {

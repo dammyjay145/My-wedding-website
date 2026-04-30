@@ -100,7 +100,11 @@ a:focus {
 /*--SiteElements--*/
 
 .wdp_preloader {
-    background: url(../../images/lavender/preloader.png) no-repeat center #B47CE6;
+    background: #B47CE6;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .wdp_btn {
@@ -298,7 +302,14 @@ a:focus {
 }
 
 .wdp_about_image {
-    border: solid 5px #FFF;
+    border: solid 8px #FFF;
+    box-shadow: 0 10px 30px rgba(180, 124, 230, 0.2);
+    transition: all 0.5s ease;
+}
+
+.wdp_about_image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 40px rgba(180, 124, 230, 0.3);
 }
 
 img.wdp_bouquet_img {
@@ -388,8 +399,30 @@ img.wdp_bouquet_img {
     background: #EBE3F3;
 }
 
-.wdp_carousel_swiper_pagination > .swiper-pagination-bullet-active {
-    background-color: #B47CE6
+.wdp_carousel_swiper_pagination,
+.wdp_photo_album_swiper_pagination {
+    bottom: 0px !important;
+    position: relative !important;
+    margin-top: 30px;
+}
+
+.swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    border-radius: 100%;
+    background: transparent;
+    border: 1px solid #B47CE6;
+    opacity: 1;
+    margin: 0 6px !important;
+    transition: all 0.3s ease;
+}
+
+.wdp_carousel_swiper_pagination > .swiper-pagination-bullet-active,
+.wdp_photo_album_swiper_pagination > .swiper-pagination-bullet-active {
+    background-color: #B47CE6;
+    width: 30px;
+    border-radius: 10px;
 }
 
 .wdp_carousel_swiper_next {
