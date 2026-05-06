@@ -106,6 +106,161 @@ Version : 1.1
         object-position: center 0%;
         /* Absolute top to capture his face */
       }
+
+      /* Recolor white icons to #240615F7 */
+      .wdp_header_icon, 
+      .wdp_bouquet_img,
+      .wdp_preloader_icon {
+        filter: brightness(0) saturate(100%) invert(8%) sepia(21%) saturate(5450%) hue-rotate(305deg) brightness(91%) contrast(106%) !important;
+      }
+
+      /* Recolor background images while maintaining their "circular form" and transparency */
+      .wdp_splash_hearts,
+      .wdp_countdown_item,
+      .wdp_event_date {
+        background-image: none !important;
+        position: relative;
+      }
+
+      .wdp_splash_hearts::before,
+      .wdp_countdown_item::before,
+      .wdp_event_date::before {
+        content: "";
+        position: absolute;
+        top: 0; left: 0; right: 0; bottom: 0;
+        z-index: -1;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        filter: brightness(0) saturate(100%) invert(8%) sepia(21%) saturate(5450%) hue-rotate(305deg) brightness(91%) contrast(106%) !important;
+      }
+
+      .wdp_splash_hearts::before { background-image: url(images/lavender/hearts.png); }
+      .wdp_countdown_item::before { background-image: url(images/lavender/countdown-item-bg.png); }
+      .wdp_event_date::before { background-image: url(images/lavender/countdown-item-bg.png); }
+
+      /* For arrows, we use a solid theme color circle with a white FontAwesome icon for visibility */
+      .wdp_carousel_swiper_next,
+      .wdp_carousel_swiper_prev {
+        background-image: none !important;
+        background-color: #240615F7 !important;
+        border-radius: 50% !important;
+        width: 50px !important;
+        height: 50px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        color: #ffffff !important;
+      }
+
+      .wdp_carousel_swiper_next::after,
+      .wdp_carousel_swiper_prev::after {
+        font-family: "FontAwesome" !important;
+        font-size: 20px !important;
+        color: #ffffff !important;
+      }
+
+      .wdp_carousel_swiper_next::after { content: "\f054" !important; }
+      .wdp_carousel_swiper_prev::after { content: "\f053" !important; }
+
+      /* Maintain original text colors and structure */
+      .wdp_countdown_item p, 
+      .wdp_countdown_item span {
+        color: #fff !important;
+      }
+
+      /* Update Bridesmaids/Groomsmen card backgrounds to a very light tint of the new color */
+      .wdp_carousel_swiper_item {
+        background-color: #f4f0f2 !important;
+      }
+      
+      .wdp_photo_album_swiper_item_data {
+        background-color: rgba(36, 6, 21, 0.1) !important;
+      }
+
+      /* Make couple images perfectly circular */
+      .wdp_about_image {
+        width: 320px !important;
+        height: 320px !important;
+        object-fit: cover !important;
+        border-radius: 50% !important;
+        margin: 0 auto !important;
+        border: 10px solid #fff;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      }
+
+      /* Focus on faces for the couple */
+      .wdp_about_groom .wdp_about_image {
+        object-position: center 20% !important;
+      }
+      .wdp_about_bride .wdp_about_image {
+        object-position: center 30% !important;
+      }
+
+      /* Responsive adjustment for couple images */
+      @media (max-width: 991px) {
+        .wdp_about_image {
+          width: 250px !important;
+          height: 250px !important;
+        }
+      }
+
+      /* Responsive Countdown for Mobile */
+      @media (max-width: 767px) {
+        .wdp_countdown_item {
+          width: 75px !important;
+          height: 75px !important;
+          margin: 0 5px !important;
+          padding-top: 1em !important;
+        }
+        .wdp_countdown_int {
+          font-size: 20px !important;
+        }
+        .wdp_countdown_item p {
+          font-size: 12px !important;
+          line-height: 1.2 !important;
+        }
+        .full-unit { display: none !important; }
+        .short-unit { display: inline !important; }
+        
+        /* Fill all buttons on mobile */
+        .wdp_btn_inverse, .wdp_btn {
+          background-color: #240615F7 !important;
+          color: #ffffff !important;
+          border: none !important;
+        }
+
+        /* Circular background for social icons on mobile */
+        .wdp_social_icon_item {
+          width: 40px !important;
+          height: 40px !important;
+          background-color: #240615F7 !important;
+          color: #ffffff !important;
+          border-radius: 50% !important;
+          display: flex !important;
+          align-items: center !important;
+          justify-content: center !important;
+          margin: 0 5px !important;
+          font-size: 18px !important;
+          text-decoration: none !important;
+        }
+
+        .wdp_social_icons {
+          display: flex !important;
+          justify-content: center !important;
+          padding: 0 !important;
+        }
+
+        /* More rounded buttons on mobile */
+        .wdp_btn {
+          border-radius: 30px !important;
+          padding: 10px 20px !important;
+        }
+      }
+
+      @media (min-width: 768px) {
+        .short-unit { display: none !important; }
+      }
     </style>
   </head>
 
@@ -281,11 +436,11 @@ Version : 1.1
                         "<div class='countdown_end'>The Knot has been tied... thanks for stopping by though!</div>";
                       CountActive = true;
                       BackColor = "transparent";
-                      ForeColor = "inherit";
+                      ForeColor = "#ffffff";
                       CountStepper = -1;
                       LeadingZero = false;
                       DisplayFormat =
-                        "<div class='wdp_countdown_item'><p><span class='wdp_countdown_int'>%%D%%</span> Days</p></div><div class='wdp_countdown_item'><p><span class='wdp_countdown_int'>%%H%%</span> Hours</p></div><div class='wdp_countdown_item'><p><span class='wdp_countdown_int'>%%M%%</span> Minutes</p></div><div class='wdp_countdown_item'><p><span class='wdp_countdown_int'>%%S%%</span> Seconds</p></div>";
+                        "<div class='wdp_countdown_item'><p><span class='wdp_countdown_int'>%%D%%</span> <span class='full-unit'>Days</span><span class='short-unit'>Days</span></p></div><div class='wdp_countdown_item'><p><span class='wdp_countdown_int'>%%H%%</span> <span class='full-unit'>Hours</span><span class='short-unit'>Hrs</span></p></div><div class='wdp_countdown_item'><p><span class='wdp_countdown_int'>%%M%%</span> <span class='full-unit'>Minutes</span><span class='short-unit'>Mins</span></p></div><div class='wdp_countdown_item'><p><span class='wdp_countdown_int'>%%S%%</span> <span class='full-unit'>Seconds</span><span class='short-unit'>Secs</span></p></div>";
                     </script>
                     <script src="js/countdown4963.js?ver=1.1"></script>
                   </div>
