@@ -29,43 +29,43 @@ Version : 1.1
 /*--fancySelect--*/
 
 .fancy-select {
-    background: #FFF;
-    border: solid 1px #B47CE6;
+  background: #fff;
+  border: solid 1px #2f1004;
 }
 
 .fancy-select .trigger {
-    color: #454545;
+  color: #454545;
 }
 
 .fancy-select .trigger:after {
-    color: #B47CE6;
+  color: #2f1004;
 }
 
 .fancy-select .trigger.open {
-    color: #CCC;
+  color: #ccc;
 }
 
 .fancy-select .options {
-    border: 1px solid #B47CE6;
-    background-color: #FFF;
+  border: 1px solid #b47ce6;
+  background-color: #fff;
 }
 
 .fancy-select ul.options > li:hover,
 .fancy-select ul.options > li a {
-    color: #454545;
+  color: #454545;
 }
 
 /*--DefaultSkin--*/
 
 ::-webkit-selection,
-::-moz-selection { 
-    color: #FFF;
-    background: #B47CE6;
+::-moz-selection {
+  color: #fff;
+  background: #2f1004;
 }
 
-body{
-    background: url(../../images/lavender/body-bg.png) repeat #FFF fixed;
-    color: #454545;
+body {
+  background: url(../../images/lavender/body-bg.png) repeat #fff fixed;
+  color: #454545;
 }
 
 h1,
@@ -74,459 +74,509 @@ h3,
 h4,
 h5,
 h6,
-.wdp_splash_date
-{
-    color: #B47CE6;
+.wdp_splash_date {
+  color: #b47ce6;
 }
 
 a {
-    color: #454545;
+  color: #454545;
 }
 
 a:hover {
-    color: #B47CE6;
+  color: #b47ce6;
 }
 
 a:active,
-a:visited{
-    color: #CCC;
+a:visited {
+  color: #ccc;
 }
 
 a:focus {
-    outline: none;
-    color: inherit;
+  outline: none;
+  color: inherit;
 }
 
 /*--SiteElements--*/
 
 .wdp_preloader {
-    background: #B47CE6;
-    color: #FFF;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background: #b47ce6;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .wdp_btn {
-    border: solid 1px #B47CE6;
-    background: linear-gradient(to top, transparent 50%, #B47CE6 50%) !important;
-    background-size: 100% 200% !important;
-    background-position:bottom !important;
-    color: #B47CE6 !important;
-    transition: all .4s ease;
+  border: solid 1px #2f1004;
+  background: linear-gradient(to top, transparent 50%, #b47ce6 50%) !important;
+  background-size: 100% 200% !important;
+  background-position: bottom !important;
+  color: #6a331d !important;
+  transition: all 0.4s ease;
 }
 
 .wdp_btn:hover {
-    background: linear-gradient(to top, transparent 50%, #B47CE6 50%) !important;
-    background-size: 100% 200% !important;
-    background-position: top !important;
-    color: #FFF !important;
+  background: linear-gradient(to top, transparent 50%, #2f1004 50%) !important;
+  background-size: 100% 200% !important;
+  background-position: top !important;
+  color: #fff !important;
 }
 
 .wdp_btn_inverse {
-    border: solid 1px #B47CE6;    
-    background: linear-gradient(to top, #B47CE6 50%, transparent 50%) !important;
-    background-size: 100% 200% !important;
-    background-position:bottom !important;
-    color: #FFF !important;
-    transition: all .4s ease;
+  border: solid 1px #b47ce6;
+  background: linear-gradient(to top, #b47ce6 50%, transparent 50%) !important;
+  background-size: 100% 200% !important;
+  background-position: bottom !important;
+  color: #fff !important;
+  transition: all 0.4s ease;
 }
 
 .wdp_btn_inverse:hover {
-    background: linear-gradient(to top, #B47CE6 50%, transparent 50%) !important;
-    background-size: 100% 200% !important;
-    background-position: top !important;
-    color: #B47CE6 !important;
+  background: linear-gradient(to top, #b47ce6 50%, transparent 50%) !important;
+  background-size: 100% 200% !important;
+  background-position: top !important;
+  color: #b47ce6 !important;
 }
 
 .wdp_breadcrumb {
-    background: none;
+  background: none;
 }
 
 .wdp_breadcrumb a,
 .wdp_breadcrumb a:focus,
 .wdp_breadcrumb a:visited {
-    color: #454545;
+  color: #454545;
 }
 
 .wdp_breadcrumb .active {
-    color: #CCC
+  color: #ccc;
 }
 
 .wdp_pagination > li > a,
 .wdp_pagination > li > span {
-    color: #B47CE6;
+  color: #b47ce6;
 }
 
-.wdp_pagination > li > a:hover, 
-.wdp_pagination > li > span:hover, 
-.wdp_pagination > li > a:focus, 
+.wdp_pagination > li > a:hover,
+.wdp_pagination > li > span:hover,
+.wdp_pagination > li > a:focus,
 .wdp_pagination > li > span:focus {
-    color: #454545;
-    background-color: transparent;
-    border-color: #CCC;
+  color: #454545;
+  background-color: transparent;
+  border-color: #ccc;
 }
 
 .wdp_pagination > .active > a,
-.wdp_pagination > .active > a:hover{
-    color: #FFF;
-    background: #B47CE6;
-    border-color: #FFF;
+.wdp_pagination > .active > a:hover {
+  color: #fff;
+  background: #b47ce6;
+  border-color: #fff;
 }
 
 /*--SiteBranding--*/
 
 .wdp_header {
-    background: -moz-linear-gradient(top,  rgba(255,255,255,0.9) 0%, rgba(255,255,255,0.7) 70%, rgba(255,255,255,0.25) 100%);
-    background: -webkit-linear-gradient(top,  rgba(255,255,255,0.9) 0%,rgba(255,255,255,0.7) 70%,rgba(255,255,255,0.25) 100%);
-    background: linear-gradient(to bottom,  rgba(255,255,255,0.9) 0%,rgba(255,255,255,0.7) 70%,rgba(255,255,255,0.25) 100%);
+  background: -moz-linear-gradient(
+    top,
+    rgba(255, 255, 255, 0.9) 0%,
+    rgba(255, 255, 255, 0.7) 70%,
+    rgba(255, 255, 255, 0.25) 100%
+  );
+  background: -webkit-linear-gradient(
+    top,
+    rgba(255, 255, 255, 0.9) 0%,
+    rgba(255, 255, 255, 0.7) 70%,
+    rgba(255, 255, 255, 0.25) 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.9) 0%,
+    rgba(255, 255, 255, 0.7) 70%,
+    rgba(255, 255, 255, 0.25) 100%
+  );
 }
 
 .wdp_header_icon {
-    background: url(../../images/lavender/header-icon.png) no-repeat;
-    background-size: contain; 
+  background: url(../../images/lavender/header-icon.png) no-repeat;
+  background-size: contain;
 }
 
 /*--SiteNavigation--*/
 
 .wdp_navigation {
-    background: -moz-linear-gradient(top,  rgba(255,255,255,0.45) 0%, rgba(255,255,255,0.8) 50%, rgba(255,255,255,0.45) 100%);
-    background: -webkit-linear-gradient(top,  rgba(255,255,255,0.45) 0%,rgba(255,255,255,0.8) 50%,rgba(255,255,255,0.45) 100%);
-    background: linear-gradient(to bottom,  rgba(255,255,255,0.45) 0%,rgba(255,255,255,0.8) 50%,rgba(255,255,255,0.45) 100%);
+  background: -moz-linear-gradient(
+    top,
+    rgba(255, 255, 255, 0.45) 0%,
+    rgba(255, 255, 255, 0.8) 50%,
+    rgba(255, 255, 255, 0.45) 100%
+  );
+  background: -webkit-linear-gradient(
+    top,
+    rgba(255, 255, 255, 0.45) 0%,
+    rgba(255, 255, 255, 0.8) 50%,
+    rgba(255, 255, 255, 0.45) 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.45) 0%,
+    rgba(255, 255, 255, 0.8) 50%,
+    rgba(255, 255, 255, 0.45) 100%
+  );
 }
 
 .wdp_nav a {
-    background: linear-gradient(to top, transparent 50%, #B47CE6 50%) !important;
-    background-size: 100% 200% !important;
-    background-position:bottom !important;
-    color: #B47CE6 !important;
-    transition: all .4s ease;
+  background: linear-gradient(to top, transparent 50%, #b47ce6 50%) !important;
+  background-size: 100% 200% !important;
+  background-position: bottom !important;
+  color: #b47ce6 !important;
+  transition: all 0.4s ease;
 }
 
 .wdp_nav a:hover,
-.wdp_current_page_item > a{
-    background: linear-gradient(to top, transparent 50%, #B47CE6 50%) !important;
-    background-size: 100% 200% !important;
-    background-position: top !important;
-    color: #FFF !important;
+.wdp_current_page_item > a {
+  background: linear-gradient(to top, transparent 50%, #b47ce6 50%) !important;
+  background-size: 100% 200% !important;
+  background-position: top !important;
+  color: #fff !important;
 }
 
 .wdp_dropdown_menu {
-    border: none;
+  border: none;
 }
 
-.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
-    background-color: transparent;
-    color: #B47CE6
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:focus,
+.dropdown-menu > .active > a:hover {
+  background-color: transparent;
+  color: #b47ce6;
 }
 
-.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
-    background-color: transparent;
-    border-color: transparent;
+.nav .open > a,
+.nav .open > a:focus,
+.nav .open > a:hover {
+  background-color: transparent;
+  border-color: transparent;
 }
 
 /*--ContactBar--*/
 
 .wdp_contact_bar_inner {
-    background: #B47CE6;
-    color: #FFF;
+  background: #b47ce6;
+  color: #fff;
 }
 
 .wdp_contact_bar_mail,
-.wdp_contact_bar_mail:hover{
-    color: #FFF;
+.wdp_contact_bar_mail:hover {
+  color: #fff;
 }
 
 .wdp_contact_bar_mail a {
-    color: #FFF;
+  color: #fff;
 }
 
 /*--Copyright--*/
 
 .wdp_footer_copyright {
-    background: #FFF;
+  background: #fff;
 }
 
 /*--Slideshow--*/
 
 #wdp_slideshow:before,
 #wdp_featured_image:before {
-    background: url(../../images/lavender/slidshow-shadow.png) no-repeat bottom;
-    background-size: contain;
+  background: url(../../images/lavender/slidshow-shadow.png) no-repeat bottom;
+  background-size: contain;
 }
 
 #wdp_slideshow:after,
 #wdp_featured_image:after {
-    background: url(../../images/lavender/slidshow-shape.png) no-repeat bottom;
-    background-size: contain;
+  background: url(../../images/lavender/slidshow-shape.png) no-repeat bottom;
+  background-size: contain;
 }
 
 /*--Splash--*/
 
 #wdp_splash {
-    background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.55) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 100%);
-    background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.55) 0%,rgba(255,255,255,0) 50%,rgba(255,255,255,0) 100%);
-    background: radial-gradient(ellipse at center,  rgba(255,255,255,0.55) 0%,rgba(255,255,255,0) 50%,rgba(255,255,255,0) 100%);
+  background: -moz-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(255, 255, 255, 0.55) 0%,
+    rgba(255, 255, 255, 0) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background: -webkit-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(255, 255, 255, 0.55) 0%,
+    rgba(255, 255, 255, 0) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background: radial-gradient(
+    ellipse at center,
+    rgba(255, 255, 255, 0.55) 0%,
+    rgba(255, 255, 255, 0) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
 }
 
 .wdp_splash_inner {
-    background: url(../../images/lavender/splash-bg.png) no-repeat center;
-    -webkit-background-size: contain;
-    background-size: contain;
+  background: url(../../images/lavender/splash-bg.png) no-repeat center;
+  -webkit-background-size: contain;
+  background-size: contain;
 }
 
-.wdp_splash_hearts{
-    background: url(../../images/lavender/hearts.png) no-repeat center;
-    background-size: contain;
+.wdp_splash_hearts {
+  background: url(../../images/lavender/hearts.png) no-repeat center;
+  background-size: contain;
 }
 
 .wdp_splash_couple_ini {
-    color: #FFF;
+  color: #fff;
 }
 
 /*--Countdown--*/
 
 .wdp_countdown_item {
-    background: url(../../images/lavender/countdown-item-bg.png) no-repeat center;
-    -webkit-background-size: contain;
-    background-size: contain;
-    color: #FFF;
+  background: url(../../images/lavender/countdown-item-bg.png) no-repeat center;
+  -webkit-background-size: contain;
+  background-size: contain;
+  color: #fff;
 }
 
 /*--AboutCouple--*/
 
 .wdp_about_background {
-    background: url(../../demo/blurred.jpg) no-repeat center;
-    -webkit-background-size: cover;
-    background-size: cover;
+  background: url(../../demo/blurred.jpg) no-repeat center;
+  -webkit-background-size: cover;
+  background-size: cover;
 }
 
 .wdp_about_image {
-    border: solid 8px #FFF;
-    box-shadow: 0 10px 30px rgba(180, 124, 230, 0.2);
-    transition: all 0.5s ease;
+  border: solid 8px #fff;
+  box-shadow: 0 10px 30px rgba(180, 124, 230, 0.2);
+  transition: all 0.5s ease;
 }
 
 .wdp_about_image:hover {
-    transform: scale(1.05);
-    box-shadow: 0 15px 40px rgba(180, 124, 230, 0.3);
+  transform: scale(1.05);
+  box-shadow: 0 15px 40px rgba(180, 124, 230, 0.3);
 }
 
 img.wdp_bouquet_img {
-    background: url(../../images/lavender/bouquet.png) no-repeat;
-    background-size: contain; 
+  background: url(../../images/lavender/bouquet.png) no-repeat;
+  background-size: contain;
 }
 
 .wdp_social_icon_item,
 .wdp_social_icon_item:focus,
 .wdp_social_icon_item:active,
 .wdp_social_icon_item:visited {
-    color: #B47CE6;
-    border: solid 1px transparent;
-    text-decoration: none;
+  color: #b47ce6;
+  border: solid 1px transparent;
+  text-decoration: none;
 }
 
 .wdp_social_icon_item:hover {
-    background: #B47CE6;
-    color: #FFF;
-    border: solid 1px #B47CE6;
+  background: #b47ce6;
+  color: #fff;
+  border: solid 1px #b47ce6;
 }
 
 /*--Events--*/
 
 .wdp_event_title {
-    border-bottom: dashed 1px #CCC;
+  border-bottom: dashed 1px #ccc;
 }
 
 .wdp_event_date {
-    background: url(../../images/lavender/countdown-item-bg.png) no-repeat center;
-    -webkit-background-size: contain;
-    background-size: contain;
-    color: #FFF;
+  background: url(../../images/lavender/countdown-item-bg.png) no-repeat center;
+  -webkit-background-size: contain;
+  background-size: contain;
+  color: #fff;
 }
 
 .wdp_event_image {
-    border: solid 5px #FFF;
+  border: solid 5px #fff;
 }
 
 .wdp_event_description {
-    color: #454545;
+  color: #454545;
 }
 
 .wdp_event_details {
-    color: #B47CE6;
+  color: #b47ce6;
 }
 
 /*--AlbumCarousel--*/
 
 .wdp_photo_album_swiper_item_data {
-    background-color: #EBE3F3;
+  background-color: #ebe3f3;
 }
 
 /*--HomeRSVP--*/
 
 .wdp_home_form {
-    color: #B47CE6;
+  color: #b47ce6;
 }
 
 .wdp_home_form_success {
-    background: url(../../demo/rsvp-image-1.jpg) no-repeat center;
-    -webkit-background-size: cover;
-    background-size: cover;
+  background: url(../../demo/rsvp-image-1.jpg) no-repeat center;
+  -webkit-background-size: cover;
+  background-size: cover;
 }
 
 .wdp_home_form_success_text {
-    position: absolute;
-    bottom: 0;
-    padding: 15px;
-    width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding: 15px;
+  width: 100%;
 }
 
-.wdp_home_form input, 
+.wdp_home_form input,
 .wdp_home_form select {
-    border: solid 1px #B47CE6;
+  border: solid 1px #b47ce6;
 }
 
-.wdp_home_form input:focus, 
+.wdp_home_form input:focus,
 .wdp_home_form select:focus {
-    box-shadow: none;
-    border: solid 1px #B47CE6;
+  box-shadow: none;
+  border: solid 1px #b47ce6;
 }
 
 /*--Carousel--*/
 
 .wdp_carousel_swiper_item {
-    background: #EBE3F3;
+  background: #ebe3f3;
 }
 
 .wdp_carousel_swiper_pagination,
 .wdp_photo_album_swiper_pagination {
-    bottom: 0px !important;
-    position: relative !important;
-    margin-top: 30px;
+  bottom: 0px !important;
+  position: relative !important;
+  margin-top: 30px;
 }
 
 .swiper-pagination-bullet {
-    width: 12px;
-    height: 12px;
-    display: inline-block;
-    border-radius: 100%;
-    background: transparent;
-    border: 1px solid #B47CE6;
-    opacity: 1;
-    margin: 0 6px !important;
-    transition: all 0.3s ease;
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  border-radius: 100%;
+  background: transparent;
+  border: 1px solid #b47ce6;
+  opacity: 1;
+  margin: 0 6px !important;
+  transition: all 0.3s ease;
 }
 
 .wdp_carousel_swiper_pagination > .swiper-pagination-bullet-active,
 .wdp_photo_album_swiper_pagination > .swiper-pagination-bullet-active {
-    background-color: #B47CE6;
-    width: 30px;
-    border-radius: 10px;
+  background-color: #b47ce6;
+  width: 30px;
+  border-radius: 10px;
 }
 
 .wdp_carousel_swiper_next {
-    background: url(../../images/lavender/arrow-next.png) no-repeat;
+  background: url(../../images/lavender/arrow-next.png) no-repeat;
 }
 
 .wdp_carousel_swiper_prev {
-    background: url(../../images/lavender/arrow-prev.png) no-repeat;
+  background: url(../../images/lavender/arrow-prev.png) no-repeat;
 }
 
 a.wdp_thumbnail,
 a.wdp_thumbnail:hover,
 a.wdp_thumbnail:focus,
 a.wdp_thumbnail.active {
-    border: none;
-    box-shadow: none;
-    outline: none;
+  border: none;
+  box-shadow: none;
+  outline: none;
 }
 
 /*--Album--*/
 
 .wdp_gallery_magnificPopup_item:hover {
-    color: #B47CE6;
+  color: #b47ce6;
 }
 
 /*--RSVP--*/
 
 .wdp_page_form {
-    color: #B47CE6;
+  color: #b47ce6;
 }
 
 .wdp_page_form_success {
-    background: url(../../demo/rsvp-image-2.jpg) no-repeat center;
-    -webkit-background-size: cover;
-    background-size: cover;
+  background: url(../../demo/rsvp-image-2.jpg) no-repeat center;
+  -webkit-background-size: cover;
+  background-size: cover;
 }
 
 .wdp_page_form_success_text {
-    position: absolute;
-    bottom: 0;
-    padding: 15px;
-    width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding: 15px;
+  width: 100%;
 }
 
-.wdp_page_form input, 
+.wdp_page_form input,
 .wdp_page_form select {
-    border: solid 1px #B47CE6;
+  border: solid 1px #b47ce6;
 }
 
-.wdp_page_form input:focus, 
+.wdp_page_form input:focus,
 .wdp_page_form select:focus {
-    box-shadow: none;
-    border: solid 1px #B47CE6;
+  box-shadow: none;
+  border: solid 1px #b47ce6;
 }
 
 /*--Blog--*/
 
 hr.wdp_blog_border_bottom {
-    border-color: #B47CE6;
+  border-color: #b47ce6;
 }
 
 .wdp_entry_footer {
-    background: #FFF;
+  background: #fff;
 }
 
 /*--MediaCSS--*/
 
-@media screen and (max-width: 1023px) {	
-    #wdp_splash,
-    .wdp_splash_inner {
-        background: none;
-    }	
+@media screen and (max-width: 1023px) {
+  #wdp_splash,
+  .wdp_splash_inner {
+    background: none;
+  }
 }
 
 @media screen and (max-width: 910px) {
-    .wdp_navigation {
-        background: #B47CE6;
-        border: none;
-    }
-    .navbar-toggle {
-        border-color: #FFF;
-    }
-    .navbar-toggle .icon-bar {
-        background: #FFF;
-    }
-    .wdp_dropdown_menu>li>a {
-        background: #EBE3F3 !important;
-    }
-    .navbar-collapse {
-        background: #FFF;
-        box-shadow: 0 2px 10px #E2E2E2;
-    }
+  .wdp_navigation {
+    background: #b47ce6;
+    border: none;
+  }
+  .navbar-toggle {
+    border-color: #fff;
+  }
+  .navbar-toggle .icon-bar {
+    background: #fff;
+  }
+  .wdp_dropdown_menu > li > a {
+    background: #ebe3f3 !important;
+  }
+  .navbar-collapse {
+    background: #fff;
+    box-shadow: 0 2px 10px #e2e2e2;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .wdp_slideshow_inner:before,
-    .wdp_slideshow_splash_inner {
-        background: none;
-    }
+  .wdp_slideshow_inner:before,
+  .wdp_slideshow_splash_inner {
+    background: none;
+  }
 }
 
 @media screen and (max-width: 592px) {
-    .wdp_countdown_item {
-        background: none;
-        color: #B47CE6;
-    }
+  .wdp_countdown_item {
+    background: none;
+    color: #b47ce6;
+  }
 }
