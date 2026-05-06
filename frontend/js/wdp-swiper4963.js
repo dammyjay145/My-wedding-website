@@ -22,8 +22,17 @@ jQuery(document).ready(function($){
         loop: true, // Enable continuous loop mode
         // Responsive breakpoints
         breakpoints: {
-            375: {
-                slidesPerView: 1
+            1024: {
+                slidesPerView: 3,
+                spaceBetween: 20
+            },
+            768: {
+                slidesPerView: 2,
+                spaceBetween: 15
+            },
+            640: {
+                slidesPerView: 1,
+                spaceBetween: 10
             }
         },
         effect: 'coverflow', // Swiper effect
