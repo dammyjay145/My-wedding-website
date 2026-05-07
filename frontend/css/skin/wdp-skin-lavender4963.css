@@ -46,7 +46,7 @@ Version : 1.1
 }
 
 .fancy-select .options {
-  border: 1px solid #b47ce6;
+  border: 1px solid #240615F7;
   background-color: #fff;
 }
 
@@ -75,7 +75,7 @@ h4,
 h5,
 h6,
 .wdp_splash_date {
-  color: #b47ce6;
+  color: #240615F7;
 }
 
 a {
@@ -83,7 +83,7 @@ a {
 }
 
 a:hover {
-  color: #b47ce6;
+  color: #240615F7;
 }
 
 a:active,
@@ -99,7 +99,7 @@ a:focus {
 /*--SiteElements--*/
 
 .wdp_preloader {
-  background: #b47ce6;
+  background: #240615F7;
   color: #fff;
   display: flex;
   align-items: center;
@@ -108,7 +108,7 @@ a:focus {
 
 .wdp_btn {
   border: solid 1px #2f1004;
-  background: linear-gradient(to top, transparent 50%, #b47ce6 50%) !important;
+  background: linear-gradient(to top, transparent 50%, #240615F7 50%) !important;
   background-size: 100% 200% !important;
   background-position: bottom !important;
   color: #6a331d !important;
@@ -123,8 +123,8 @@ a:focus {
 }
 
 .wdp_btn_inverse {
-  border: solid 1px #b47ce6;
-  background: linear-gradient(to top, #b47ce6 50%, transparent 50%) !important;
+  border: solid 1px #240615F7;
+  background: linear-gradient(to top, #240615F7 50%, transparent 50%) !important;
   background-size: 100% 200% !important;
   background-position: bottom !important;
   color: #fff !important;
@@ -132,10 +132,10 @@ a:focus {
 }
 
 .wdp_btn_inverse:hover {
-  background: linear-gradient(to top, #b47ce6 50%, transparent 50%) !important;
+  background: linear-gradient(to top, #240615F7 50%, transparent 50%) !important;
   background-size: 100% 200% !important;
   background-position: top !important;
-  color: #b47ce6 !important;
+  color: #240615F7 !important;
 }
 
 .wdp_breadcrumb {
@@ -154,7 +154,7 @@ a:focus {
 
 .wdp_pagination > li > a,
 .wdp_pagination > li > span {
-  color: #b47ce6;
+  color: #240615F7;
 }
 
 .wdp_pagination > li > a:hover,
@@ -169,7 +169,7 @@ a:focus {
 .wdp_pagination > .active > a,
 .wdp_pagination > .active > a:hover {
   color: #fff;
-  background: #b47ce6;
+  background: #240615F7;
   border-color: #fff;
 }
 
@@ -225,16 +225,16 @@ a:focus {
 }
 
 .wdp_nav a {
-  background: linear-gradient(to top, transparent 50%, #b47ce6 50%) !important;
+  background: linear-gradient(to top, transparent 50%, #240615F7 50%) !important;
   background-size: 100% 200% !important;
   background-position: bottom !important;
-  color: #b47ce6 !important;
+  color: #240615F7 !important;
   transition: all 0.4s ease;
 }
 
 .wdp_nav a:hover,
 .wdp_current_page_item > a {
-  background: linear-gradient(to top, transparent 50%, #b47ce6 50%) !important;
+  background: linear-gradient(to top, transparent 50%, #240615F7 50%) !important;
   background-size: 100% 200% !important;
   background-position: top !important;
   color: #fff !important;
@@ -248,7 +248,7 @@ a:focus {
 .dropdown-menu > .active > a:focus,
 .dropdown-menu > .active > a:hover {
   background-color: transparent;
-  color: #b47ce6;
+  color: #240615F7;
 }
 
 .nav .open > a,
@@ -261,7 +261,7 @@ a:focus {
 /*--ContactBar--*/
 
 .wdp_contact_bar_inner {
-  background: #b47ce6;
+  background: #240615F7;
   color: #fff;
 }
 
@@ -353,13 +353,13 @@ a:focus {
 
 .wdp_about_image {
   border: solid 8px #fff;
-  box-shadow: 0 10px 30px rgba(180, 124, 230, 0.2);
+  box-shadow: 0 10px 30px rgba(36, 6, 21, 0.2);
   transition: all 0.5s ease;
 }
 
 .wdp_about_image:hover {
   transform: scale(1.05);
-  box-shadow: 0 15px 40px rgba(180, 124, 230, 0.3);
+  box-shadow: 0 15px 40px rgba(36, 6, 21, 0.3);
 }
 
 img.wdp_bouquet_img {
@@ -371,15 +371,15 @@ img.wdp_bouquet_img {
 .wdp_social_icon_item:focus,
 .wdp_social_icon_item:active,
 .wdp_social_icon_item:visited {
-  color: #b47ce6;
+  color: #240615F7;
   border: solid 1px transparent;
   text-decoration: none;
 }
 
 .wdp_social_icon_item:hover {
-  background: #b47ce6;
+  background: #240615F7;
   color: #fff;
-  border: solid 1px #b47ce6;
+  border: solid 1px #240615F7;
 }
 
 /*--Events--*/
@@ -404,7 +404,7 @@ img.wdp_bouquet_img {
 }
 
 .wdp_event_details {
-  color: #b47ce6;
+  color: #240615F7;
 }
 
 /*--AlbumCarousel--*/
@@ -416,7 +416,7 @@ img.wdp_bouquet_img {
 /*--HomeRSVP--*/
 
 .wdp_home_form {
-  color: #b47ce6;
+  color: #240615F7;
 }
 
 .wdp_home_form_success {
@@ -434,13 +434,13 @@ img.wdp_bouquet_img {
 
 .wdp_home_form input,
 .wdp_home_form select {
-  border: solid 1px #b47ce6;
+  border: solid 1px #240615F7;
 }
 
 .wdp_home_form input:focus,
 .wdp_home_form select:focus {
   box-shadow: none;
-  border: solid 1px #b47ce6;
+  border: solid 1px #240615F7;
 }
 
 /*--Carousel--*/
@@ -462,7 +462,7 @@ img.wdp_bouquet_img {
   display: inline-block;
   border-radius: 100%;
   background: transparent;
-  border: 1px solid #b47ce6;
+  border: 1px solid #240615F7;
   opacity: 1;
   margin: 0 6px !important;
   transition: all 0.3s ease;
@@ -470,7 +470,7 @@ img.wdp_bouquet_img {
 
 .wdp_carousel_swiper_pagination > .swiper-pagination-bullet-active,
 .wdp_photo_album_swiper_pagination > .swiper-pagination-bullet-active {
-  background-color: #b47ce6;
+  background-color: #240615F7;
   width: 30px;
   border-radius: 10px;
 }
@@ -495,13 +495,13 @@ a.wdp_thumbnail.active {
 /*--Album--*/
 
 .wdp_gallery_magnificPopup_item:hover {
-  color: #b47ce6;
+  color: #240615F7;
 }
 
 /*--RSVP--*/
 
 .wdp_page_form {
-  color: #b47ce6;
+  color: #240615F7;
 }
 
 .wdp_page_form_success {
@@ -519,19 +519,19 @@ a.wdp_thumbnail.active {
 
 .wdp_page_form input,
 .wdp_page_form select {
-  border: solid 1px #b47ce6;
+  border: solid 1px #240615F7;
 }
 
 .wdp_page_form input:focus,
 .wdp_page_form select:focus {
   box-shadow: none;
-  border: solid 1px #b47ce6;
+  border: solid 1px #240615F7;
 }
 
 /*--Blog--*/
 
 hr.wdp_blog_border_bottom {
-  border-color: #b47ce6;
+  border-color: #240615F7;
 }
 
 .wdp_entry_footer {
@@ -549,7 +549,7 @@ hr.wdp_blog_border_bottom {
 
 @media screen and (max-width: 910px) {
   .wdp_navigation {
-    background: #b47ce6;
+    background: #240615F7;
     border: none;
   }
   .navbar-toggle {
@@ -577,6 +577,6 @@ hr.wdp_blog_border_bottom {
 @media screen and (max-width: 592px) {
   .wdp_countdown_item {
     background: none;
-    color: #b47ce6;
+    color: #240615F7;
   }
 }
