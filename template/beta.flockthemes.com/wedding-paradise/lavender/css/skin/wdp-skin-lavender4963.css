@@ -30,7 +30,7 @@ Version : 1.1
 
 .fancy-select {
     background: #FFF;
-    border: solid 1px #B47CE6;
+    border: solid 1px #240615F7;
 }
 
 .fancy-select .trigger {
@@ -38,7 +38,7 @@ Version : 1.1
 }
 
 .fancy-select .trigger:after {
-    color: #B47CE6;
+    color: #240615F7;
 }
 
 .fancy-select .trigger.open {
@@ -46,7 +46,7 @@ Version : 1.1
 }
 
 .fancy-select .options {
-    border: 1px solid #B47CE6;
+    border: 1px solid #240615F7;
     background-color: #FFF;
 }
 
@@ -60,7 +60,7 @@ Version : 1.1
 ::-webkit-selection,
 ::-moz-selection { 
     color: #FFF;
-    background: #B47CE6;
+    background: #240615F7;
 }
 
 body{
@@ -76,7 +76,7 @@ h5,
 h6,
 .wdp_splash_date
 {
-    color: #B47CE6;
+    color: #240615F7;
 }
 
 a {
@@ -84,7 +84,7 @@ a {
 }
 
 a:hover {
-    color: #B47CE6;
+    color: #240615F7;
 }
 
 a:active,
@@ -100,28 +100,28 @@ a:focus {
 /*--SiteElements--*/
 
 .wdp_preloader {
-    background: url(../../images/lavender/preloader.png) no-repeat center #B47CE6;
+    background: url(../../images/lavender/preloader.png) no-repeat center #240615F7;
 }
 
 .wdp_btn {
-    border: solid 1px #B47CE6;
-    background: linear-gradient(to top, transparent 50%, #B47CE6 50%) !important;
+    border: solid 1px #240615F7;
+    background: linear-gradient(to top, transparent 50%, #240615F7 50%) !important;
     background-size: 100% 200% !important;
     background-position:bottom !important;
-    color: #B47CE6 !important;
+    color: #240615F7 !important;
     transition: all .4s ease;
 }
 
 .wdp_btn:hover {
-    background: linear-gradient(to top, transparent 50%, #B47CE6 50%) !important;
+    background: linear-gradient(to top, transparent 50%, #240615F7 50%) !important;
     background-size: 100% 200% !important;
     background-position: top !important;
     color: #FFF !important;
 }
 
 .wdp_btn_inverse {
-    border: solid 1px #B47CE6;    
-    background: linear-gradient(to top, #B47CE6 50%, transparent 50%) !important;
+    border: solid 1px #240615F7;    
+    background: linear-gradient(to top, #240615F7 50%, transparent 50%) !important;
     background-size: 100% 200% !important;
     background-position:bottom !important;
     color: #FFF !important;
@@ -129,10 +129,10 @@ a:focus {
 }
 
 .wdp_btn_inverse:hover {
-    background: linear-gradient(to top, #B47CE6 50%, transparent 50%) !important;
+    background: linear-gradient(to top, #240615F7 50%, transparent 50%) !important;
     background-size: 100% 200% !important;
     background-position: top !important;
-    color: #B47CE6 !important;
+    color: #240615F7 !important;
 }
 
 .wdp_breadcrumb {
@@ -151,7 +151,7 @@ a:focus {
 
 .wdp_pagination > li > a,
 .wdp_pagination > li > span {
-    color: #B47CE6;
+    color: #240615F7;
 }
 
 .wdp_pagination > li > a:hover, 
@@ -166,7 +166,7 @@ a:focus {
 .wdp_pagination > .active > a,
 .wdp_pagination > .active > a:hover{
     color: #FFF;
-    background: #B47CE6;
+    background: #240615F7;
     border-color: #FFF;
 }
 
@@ -192,16 +192,16 @@ a:focus {
 }
 
 .wdp_nav a {
-    background: linear-gradient(to top, transparent 50%, #B47CE6 50%) !important;
+    background: linear-gradient(to top, transparent 50%, #240615F7 50%) !important;
     background-size: 100% 200% !important;
     background-position:bottom !important;
-    color: #B47CE6 !important;
+    color: #240615F7 !important;
     transition: all .4s ease;
 }
 
 .wdp_nav a:hover,
 .wdp_current_page_item > a{
-    background: linear-gradient(to top, transparent 50%, #B47CE6 50%) !important;
+    background: linear-gradient(to top, transparent 50%, #240615F7 50%) !important;
     background-size: 100% 200% !important;
     background-position: top !important;
     color: #FFF !important;
@@ -213,7 +213,7 @@ a:focus {
 
 .dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
     background-color: transparent;
-    color: #B47CE6
+    color: #240615F7
 }
 
 .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
@@ -224,7 +224,7 @@ a:focus {
 /*--ContactBar--*/
 
 .wdp_contact_bar_inner {
-    background: #B47CE6;
+    background: #240615F7;
     color: #FFF;
 }
 
@@ -310,15 +310,15 @@ img.wdp_bouquet_img {
 .wdp_social_icon_item:focus,
 .wdp_social_icon_item:active,
 .wdp_social_icon_item:visited {
-    color: #B47CE6;
+    color: #240615F7;
     border: solid 1px transparent;
     text-decoration: none;
 }
 
 .wdp_social_icon_item:hover {
-    background: #B47CE6;
+    background: #240615F7;
     color: #FFF;
-    border: solid 1px #B47CE6;
+    border: solid 1px #240615F7;
 }
 
 /*--Events--*/
@@ -343,7 +343,7 @@ img.wdp_bouquet_img {
 }
 
 .wdp_event_details {
-    color: #B47CE6;
+    color: #240615F7;
 }
 
 /*--AlbumCarousel--*/
@@ -355,7 +355,7 @@ img.wdp_bouquet_img {
 /*--HomeRSVP--*/
 
 .wdp_home_form {
-    color: #B47CE6;
+    color: #240615F7;
 }
 
 .wdp_home_form_success {
@@ -373,13 +373,13 @@ img.wdp_bouquet_img {
 
 .wdp_home_form input, 
 .wdp_home_form select {
-    border: solid 1px #B47CE6;
+    border: solid 1px #240615F7;
 }
 
 .wdp_home_form input:focus, 
 .wdp_home_form select:focus {
     box-shadow: none;
-    border: solid 1px #B47CE6;
+    border: solid 1px #240615F7;
 }
 
 /*--Carousel--*/
@@ -389,7 +389,7 @@ img.wdp_bouquet_img {
 }
 
 .wdp_carousel_swiper_pagination > .swiper-pagination-bullet-active {
-    background-color: #B47CE6
+    background-color: #240615F7
 }
 
 .wdp_carousel_swiper_next {
@@ -412,13 +412,13 @@ a.wdp_thumbnail.active {
 /*--Album--*/
 
 .wdp_gallery_magnificPopup_item:hover {
-    color: #B47CE6;
+    color: #240615F7;
 }
 
 /*--RSVP--*/
 
 .wdp_page_form {
-    color: #B47CE6;
+    color: #240615F7;
 }
 
 .wdp_page_form_success {
@@ -436,19 +436,19 @@ a.wdp_thumbnail.active {
 
 .wdp_page_form input, 
 .wdp_page_form select {
-    border: solid 1px #B47CE6;
+    border: solid 1px #240615F7;
 }
 
 .wdp_page_form input:focus, 
 .wdp_page_form select:focus {
     box-shadow: none;
-    border: solid 1px #B47CE6;
+    border: solid 1px #240615F7;
 }
 
 /*--Blog--*/
 
 hr.wdp_blog_border_bottom {
-    border-color: #B47CE6;
+    border-color: #240615F7;
 }
 
 .wdp_entry_footer {
@@ -466,7 +466,7 @@ hr.wdp_blog_border_bottom {
 
 @media screen and (max-width: 910px) {
     .wdp_navigation {
-        background: #B47CE6;
+        background: #240615F7;
         border: none;
     }
     .navbar-toggle {
@@ -494,6 +494,6 @@ hr.wdp_blog_border_bottom {
 @media screen and (max-width: 592px) {
     .wdp_countdown_item {
         background: none;
-        color: #B47CE6;
+        color: #240615F7;
     }
 }
